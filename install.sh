@@ -20,5 +20,5 @@ bootstrap () {
     sh bootstrap-salt.sh -xP stable 3003.3
 }
 which salt-call || bootstrap
-salt-call -c $(pwd) state.highstate
+salt-call -l debug -c $(pwd) state.highstate
 

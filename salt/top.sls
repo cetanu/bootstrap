@@ -3,6 +3,7 @@ base:
       - neovim
       - language_servers
       - cargo
-      # - terminal
-      # - shell
+      - shell
       # - tmux
+      # - docker
+      # - pyenv
